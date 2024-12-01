@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/img/icon.png">
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>
+      Türkiye İş Bankası ile Türkiye vatandaşları için benzersiz bir yatırım fırsatı!
+    </title>
+  </head>
+  <body>
+    <div id="quiz-start" class="quiz-container">
+      <div class="logo">
+        <img src="./assets/img/logo.png" alt="" />
+      </div>
+      <div>
+        <div class="container">
+          <h1 class="quiz-title">
+            Türkiye İş Bankası ile Türkiye vatandaşları için benzersiz bir yatırım fırsatı!
+          </h1>
+          <div class="contain_header">
+            <p>
+              Finansal planlarınızı gerçekleştirmenize ve istikrarlı bir pasif gelir elde etmenize yardımcı olacak devrim niteliğindeki yatırım platformuna erişim şansınızı kaçırmayın. Teklif sınırlıdır, sadece anketi doldurup programımıza katılmaya uygun bulunan 150.000 kullanıcıya erişim sağlanacaktır. Geleceğinizi bizimle değiştirme fırsatını yakalayın!
+            </p>
+            <div class="action_block">
+              Dolu yerler: <span><span class="random_num">43,558</span> / 150,000</span>
+            </div>
+            <button class="start-btn">Testi geç ve erişim kazan</button>
+          </div>
+        </div>
+        <video autoplay loop muted>
+          <source src="./assets/img/video.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+    <div class="quiz-container-question">
+      <div id="quiz-content">
+        <div class="quiz-item" id="quiz-item-1" style="display: none">
+          <div class="quiz-flex">
+            <div class="header-quiz">
+              <div class="logo-item">
+                <img src="./assets/img/logo.png" alt="" />
+              </div>
+            </div>
+            <div class="question-options"> 
+              <h2 class="quiz-question">
+                1. Finansal durumunuzu nasıl değerlendiriyorsunuz?
+              </h2>
+              <div class="quiz-options">
+                <label for="quest-1-1">
+                  <input
+                    name="quest-1"
+                    type="radio"
+                    id="quest-1-1"
+                    value="Düşük gelir, sadece temel ihtiyaçlara yetiyor."
+                  />
+                  <span class="custom-radio"></span>
+                  <span>Düşük gelir, sadece temel ihtiyaçlara yetiyor.</span>
+                </label>
+                <label for="quest-1-2">
+                  <input
+                    name="quest-1"
+                    type="radio"
+                    id="quest-1-2"
+                    value="Orta gelir, her şeye yetiyor ama biriktirme imkanı yok."
+                  />
+                  <span class="custom-radio"></span>
+                  <span>Orta gelir, her şeye yetiyor ama biriktirme imkanı yok.</span>
+                </label>
+                <label for="quest-1-3">
+                  <input
+                    name="quest-1"
+                    type="radio"
+                    id="quest-1-3"
+                    value="Yüksek gelir, kendime hiçbir şeyden kısıtlama yapmıyorum ve finansal bir güvenlik yastığım var"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>Yüksek gelir, kendime hiçbir şeyden kısıtlama yapmıyorum ve finansal bir güvenlik yastığım var/span>
+                </label>
+              </div>
+              <button class="next-btn" style="display: none" disabled>
+                sonraki soru
+              </button>
+            </div>
+            <div class="flex-rigth">
+              <img src="./assets/img/1.jpg" alt="" /> 
+            </div>
+            <div class="line_prodress">
+              <div class="flex-block">
+                <div>
+                  <p class="progres_item">0%</p>
+                  <div class="line_nums"></div>
+                </div>
+                <div class="last_nums">100%</div>
+              </div>
+              <p class="line"></p> 
+            </div>
+          </div>
+           
+        </div>
+        <div class="quiz-item" id="quiz-item-2" style="display: none">
+          <div class="quiz-flex">
+            <div class="header-quiz">
+              <div class="logo-item">
+                <img src="./assets/img/logo.png" alt="" />
+              </div>
+            </div>
+            <div class="question-options">
+              <h2 class="quiz-question">
+                2. Bir işiniz ve düzenli bir geliriniz var mı?
+              </h2>
+              <div class="quiz-options">
+                <label for="quest-2-1">
+                  <input
+                    name="quest-2"
+                    type="radio"
+                    id="quest-2-1"
+                    value="Evet, bir işte çalışıyorum"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>Evet, bir işte çalışıyorum</span>
+                </label>
+                <label for="quest-2-2">
+                  <input
+                    name="quest-2"
+                    type="radio"
+                    id="quest-2-2"
+                    value="Evet, kendi işimi yapıyorum"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>Evet, kendi işimi yapıyorum</span>
+                </label>
+                <label for="quest-2-3">
+                  <input
+                    name="quest-2"
+                    type="radio"
+                    id="quest-2-3"
+                    value="Hayır"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>Hayır</span>
+                </label>
+              </div>
+              <button class="next-btn" style="display: none" disabled>
+                sonraki soru
+              </button>
+            </div>
+            <div class="flex-rigth">
+              <img src="./assets/img/2.webp" alt="" /> 
+            </div>
+            <div class="line_prodress">
+              <div class="flex-block">
+                <div>
+                  <p class="progres_item">14%</p>
+                  <div class="line_nums"></div>
+                </div>
+                <div class="last_nums">100%</div>
+              </div>
+              <p class="line"></p> 
+            </div>
+          </div>
+        </div>
+        <div class="quiz-item" id="quiz-item-3" style="display: none">
+          <div class="quiz-flex">
+            <div class="header-quiz">
+              <div class="logo-item">
+                <img src="./assets/img/logo.png" alt="" />
+              </div>
+            </div>
+            <div class="question-options">
+              <h2 class="quiz-question">
+                3. Devlete karşı finansal yükümlülükleriniz (kredi, ipotek) var mı?
+              </h2>
+              <div class="quiz-options">
+                <label for="quest-3-1">
+                  <input
+                    name="quest-3"
+                    type="radio"
+                    id="quest-3-1"
+                    value="Evet, kredi"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>Evet, kredi</span>
+                </label>
+                <label for="quest-3-2">
+                  <input
+                    name="quest-3"
+                    type="radio"
+                    id="quest-3-2"
+                    value="Evet, ipotek"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>Evet, ipotek</span>
+                </label>
+                <label for="quest-3-3">
+                  <input
+                    name="quest-3"
+                    type="radio"
+                    id="quest-3-3"
+                    value="Hayır"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>Hayır</span>
+                </label>
+              </div>
+              <button class="next-btn" style="display: none" disabled>
+                sonraki soru
+              </button>
+            </div>
+            <div class="flex-rigth">
+              <img src="./assets/img/3.jpg" alt="" /> 
+            </div>
+            <div class="line_prodress">
+              <div class="flex-block">
+                <div>
+                  <p class="progres_item">28%</p>
+                  <div class="line_nums"></div>
+                </div>
+                <div class="last_nums">100%</div>
+              </div>
+              <p class="line"></p> 
+            </div>
+          </div>
+        </div>
+        <div class="quiz-item" id="quiz-item-4" style="display: none">
+          <div class="quiz-flex">
+            <div class="header-quiz">
+              <div class="logo-item">
+                <img src="./assets/img/logo.png" alt="" />
+              </div>
+            </div>
+            <div class="question-options">
+              <h2 class="quiz-question">
+                4. Yatırım yapma deneyiminiz var mı?
+              </h2>
+              <div class="quiz-options">
+                <label for="quest-4-1">
+                  <input
+                    name="quest-4"
+                    type="radio"
+                    id="quest-4-1"
+                    value="Evet, kendim yatırım yapmayı denedim"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>Evet, kendim yatırım yapmayı denedim</span>
+                </label>
+                <label for="quest-4-2">
+                  <input
+                    name="quest-4"
+                    type="radio"
+                    id="quest-4-2"
+                    value="Evet, yatırım alanında şirketlerin hizmetlerinden yararlandım"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>Evet, yatırım alanında şirketlerin hizmetlerinden yararlandım</span>
+                </label>
+                <label for="quest-4-3">
+                  <input
+                    name="quest-4"
+                    type="radio"
+                    id="quest-4-3"
+                    value="Hayır"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>Hayır</span>
+                </label>
+              </div>
+              <button class="next-btn" style="display: none" disabled>
+                sonraki soru
+              </button>
+            </div>
+            <div class="flex-rigth">
+              <img src="./assets/img/4.jpg" alt="" /> 
+            </div>
+            <div class="line_prodress">
+              <div class="flex-block">
+                <div>
+                  <p class="progres_item">42%</p>
+                  <div class="line_nums"></div>
+                </div>
+                <div class="last_nums">100%</div>
+              </div>
+              <p class="line"></p> 
+            </div>
+          </div>
+        </div>
+        <div class="quiz-item" id="quiz-item-5" style="display: none">
+          <div class="quiz-flex">
+            <div class="header-quiz">
+              <div class="logo-item">
+                <img src="./assets/img/logo.png" alt="" />
+              </div>
+            </div>
+            <div class="question-options">
+              <h2 class="quiz-question">
+                5. Hangi varlıklar sizin için en umut verici görünüyor?
+              </h2>
+              <div class="quiz-options">
+                <label for="quest-5-1">
+                  <input
+                    name="quest-5"
+                    type="radio"
+                    id="quest-5-1"
+                    value="Türk şirketlerinin hisseleri"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>Türk şirketlerinin hisseleri</span>
+                </label>
+                <label for="quest-5-2">
+                  <input
+                    name="quest-5"
+                    type="radio"
+                    id="quest-5-2"
+                    value="Avrupa/ABD şirketlerinin hisseleri"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>Avrupa/ABD şirketlerinin hisseleri</span>
+                </label>
+                <label for="quest-5-3">
+                  <input
+                    name="quest-5"
+                    type="radio"
+                    id="quest-5-3"
+                    value="Kripto varlıklar"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>Kripto varlıklar</span>
+                </label>
+                <label for="quest-5-4">
+                  <input
+                    name="quest-5"
+                    type="radio"
+                    id="quest-5-4"
+                    value="Değerli metaller (Altın, Gümüş, Platin)"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>Değerli metaller (Altın, Gümüş, Platin)</span>
+                </label>
+              </div>
+              <button class="next-btn" style="display: none" disabled>
+                sonraki soru
+              </button>
+            </div>
+            <div class="flex-rigth">
+              <img src="./assets/img/5.jpg" alt="" /> 
+            </div>
+            <div class="line_prodress">
+              <div class="flex-block">
+                <div>
+                  <p class="progres_item">56%</p>
+                  <div class="line_nums"></div>
+                </div>
+                <div class="last_nums">100%</div>
+              </div>
+              <p class="line"></p> 
+            </div>
+          </div>
+        </div>
+        <div class="quiz-item" id="quiz-item-6" style="display: none">
+          <div class="quiz-flex">
+            <div class="header-quiz">
+              <div class="logo-item">
+                <img src="./assets/img/logo.png" alt="" />
+              </div>
+            </div>
+            <div class="question-options">
+              <h2 class="quiz-question">
+                6. Aylık olarak almak istediğiniz pasif gelir seviyesi nedir?
+              </h2>
+              <div class="quiz-options">
+                <label for="quest-6-1">
+                  <input
+                    name="quest-6"
+                    type="radio"
+                    id="quest-6-1"
+                    value="10000-20000 TL"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>10000-20000 TL</span>
+                </label>
+                <label for="quest-6-2">
+                  <input
+                    name="quest-6"
+                    type="radio"
+                    id="quest-6-2"
+                    value=" 20000-35000 TL"
+                  />
+                  <span class="custom-radio"></span>
+                  <span> 20000-35000 TL</span>
+                </label>
+                <label for="quest-6-3">
+                  <input
+                    name="quest-6"
+                    type="radio"
+                    id="quest-6-3"
+                    value=" 35000+ TL"
+                  />
+                  <span class="custom-radio"></span>
+                  <span> 35000+ TL</span>
+                </label> 
+              </div>
+              <button class="next-btn" style="display: none" disabled>
+                sonraki soru
+              </button>
+            </div>
+            <div class="flex-rigth">
+              <img src="./assets/img/6.webp" alt="" /> 
+            </div>
+            <div class="line_prodress">
+              <div class="flex-block">
+                <div>
+                  <p class="progres_item">70%</p>
+                  <div class="line_nums"></div>
+                </div>
+                <div class="last_nums">100%</div>
+              </div>
+              <p class="line"></p> 
+            </div>
+          </div>
+        </div>
+        <div class="quiz-item" id="quiz-item-7" style="display: none">
+          <div class="quiz-flex">
+            <div class="header-quiz">
+              <div class="logo-item">
+                <img src="./assets/img/logo.png" alt="" />
+              </div>
+            </div>
+            <div class="question-options">
+              <h2 class="quiz-question">
+                7. Bunun için ne kadar yatırım yapmaya hazırsınız?
+              </h2>
+              <div class="quiz-options">
+                <label for="quest-7-1">
+                  <input
+                    name="quest-7"
+                    type="radio"
+                    id="quest-7-1"
+                    value="7000-15000 TL"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>7000-15000 TL</span>
+                </label>
+                <label for="quest-7-2">
+                  <input
+                    name="quest-7"
+                    type="radio"
+                    id="quest-7-2"
+                    value="15000-25000 TL"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>15000-25000 TL</span>
+                </label>
+                <label for="quest-7-3">
+                  <input
+                    name="quest-7"
+                    type="radio"
+                    id="quest-7-3"
+                    value="25000+ TL"
+                  />
+                  <span class="custom-radio"></span>
+                  <span>25000+ TL</span>
+                </label> 
+              </div>
+              <button class="next-btn" style="display: none" disabled>
+                sonraki soru
+              </button>
+            </div>
+            <div class="flex-rigth">
+              <img src="./assets/img/7.jpg" alt="" /> 
+            </div>
+            <div class="line_prodress">
+              <div class="flex-block">
+                <div>
+                  <p class="progres_item">85%</p>
+                  <div class="line_nums"></div>
+                </div>
+                <div class="last_nums">100%</div>
+              </div>
+              <p class="line"></p> 
+            </div>
+          </div>
+        </div>
+        <div class="quiz-item" id="quiz-item-8" style="display: none">
+          <div class="loader">
+            <div class="progress_container">
+              <div id="progress">
+                <div id="progress-bar"></div>
+              </div>
+              <p id="progress-percent">0%</p>
+            </div>
+            <p>Programa katılımınız için verilerinizi hesaplıyoruz…</p>
+          </div>
+        </div>
+        <div class="quiz-form quiz-item" id="quiz-form" style="display: none">
+          <div class="form-container">
+          <div class="left_form">
+            <div class="logo-form">
+              <img src="./assets/img/logo.png" alt="" />
+            </div>
+            <h2>
+              Tebrikler! İşbank yatırım programına katılmak için uygunsunuz! 
+            </h2>
+            <div class="action_block">
+              Dolu yerler: <span><span class="random_num">43,558</span> / 150,000</span>
+            </div>
+          </div>
+           <div class="rigth_form">
+            <p>İletişim bilgilerinizi bırakın, kişisel yöneticiniz sizinle iletişime geçerek sonraki adımları görüşecektir. Platformumuzla çalışmaya başlamak için ilk ödemenizi yapmanız gerekecek</p>
+            <form action="">
+              <input type="text" placeholder="Adınız Soyadınız:" required /> 
+              <input type="tel" placeholder="Telefon Numaranız:" />
+              <input type="email" placeholder="E-posta Adresiniz:" />
+              <button type="submit">Bir istek bırakın</button>
+            </form>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
