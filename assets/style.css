@@ -130,7 +130,7 @@ table {
   border-spacing: 0;
 }
 body {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Karla", sans-serif;
    background: #011735;
    position: relative;
 }
@@ -447,7 +447,7 @@ form button {
   font-weight: 600;
   border: none;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 8px;
   padding: 10px 20px;
   cursor: pointer;
@@ -752,7 +752,7 @@ h2 span {
     background: #013682;
   }
   .quiz-container::before{
-    content: none;
+    background: linear-gradient(132deg, rgb(0 0 0 / 75%) 11%, rgb(2 9 25 / 67%) 43%, rgb(0 0 0) 106%);
   }
   #quiz-start .container{
     width: 100%;
@@ -807,11 +807,12 @@ h2 span {
   h1 { 
     /* text-align: left; */
     margin: 20px 0 0px;
-    color: #013682;
+    color: #ffffff;
     font-size: 26px;
   }
   #quiz-start p { 
     padding: 0;
+    color: #ffffff;
     /* text-align: left; */
   }
   .start-btn {
@@ -820,7 +821,10 @@ h2 span {
     width: 100%;
   }
   .action_block{
-    color: #0056b3;
+    color: #037dff;
+  }
+  .next-btn{
+    font-size: 18px;
   }
   .quiz-container{
     border-radius: 0;
@@ -830,7 +834,7 @@ h2 span {
     padding-right: 12px;
   }
   .next-btn {
-    max-width: 150px;
+    max-width: 190px;
     width: 100%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -894,8 +898,7 @@ h2 span {
     width: 100%;
   }
   div.left_form{
-    padding: 0;
-    background: #fff;
+    padding: 0; 
   }
   .logo-form{
     background: #013682;
@@ -906,7 +909,7 @@ h2 span {
     margin: 0 auto;
   }
   .form-container h2{
-    color: #02244a;
+    color: #ffffff;
     padding: 0 20px;
   }
   #quiz-form{
@@ -915,13 +918,15 @@ h2 span {
   .form-container> .rigth_form{
      padding: 0; 
   }
-  .rigth_form>p{
-    background: #fff;
+  .rigth_form>p{ 
     padding: 20px;
-    margin-top: -1px;
+    color: #fff; 
   }
   .form-container> .rigth_form form{
     padding: 20px;
+  }
+  .form-container form input{
+    opacity: .8;
   }
   .form-container form input{
     height: 50px;
@@ -956,5 +961,40 @@ h2 span {
   }
   .thank-you-container p{
     margin: 0 20px 30px !important;
+  }
+  #quiz-start video{
+    display: none;
+  }
+  #quiz-start{
+    background: url(./img/bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  } 
+  .form-container{
+    background: url(./img/bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .form-container::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(132deg, rgb(0 0 0 / 41%) 11%, rgb(2 9 25 / 58%) 43%, rgb(0 0 0) 106%);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  div.left_form{
+    position: relative;
+    z-index: 2;
+    background: transparent;
+  }
+  .form-container> .rigth_form{
+    position: relative;
+    z-index: 3;
+  }
+  h1{
+    background: linear-gradient(132deg, rgb(134 140 147 / 30%) 11%, rgb(31 62 124 / 54%) 43%, rgb(0 0 0 / 0%) 106%);
   }
 }
