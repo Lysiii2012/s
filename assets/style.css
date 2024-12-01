@@ -271,12 +271,17 @@ body::before{
       -ms-flex-pack: center;
           justify-content: center;
 }
+.quiz-container{
+  background: url(./img/bb.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .quiz-container::before{
   content: "";
   display: block;
   width: 100%;
   height: 100%;
-  background: linear-gradient(132deg, rgb(0 0 0 / 41%) 11%, rgb(4 36 101 / 47%) 43%, rgba(0, 0, 0, 0.8688068977591037) 106%);
+  background: linear-gradient(132deg, rgb(0 0 0 / 69%) 11%, rgb(0 0 0 / 66%) 43%, rgba(0, 0, 0, 0.8688068977591037) 106%);
 
   z-index: 1;
   position: absolute;
